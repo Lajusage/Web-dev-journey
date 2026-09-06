@@ -49,8 +49,7 @@ nav{
 
 .hero{
     background-color: #ffe4ed;
-    width: 90%;
-    height: 550px;
+    width: 100%;
     padding: 50px;
     margin: 40px auto;
     border: 1px solid #f3c4da;
@@ -60,8 +59,8 @@ nav{
 }
 
 .hero h2{
-    font-size: 40px;
-    font-size: 700;
+    font-size: 38px;
+    font-weight: 700;
     color: #d94f7d;
     letter-spacing: 1.5px;
     text-align: center;
@@ -74,8 +73,8 @@ nav{
 }
 
 .hero img{
-    width: 350px;
-    height: 400px;
+    width: 650px;
+    height: 500px;
     border-radius: 20px;
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
 }
