@@ -75,7 +75,7 @@ nav{
 
 .hero img{
     width: 750px;
-    height: 550px;
+    height: 600px;
     border-radius: 20px;
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
 }
@@ -92,7 +92,7 @@ nav{
 }
 
 .Categories{
-    width: 700px;
+    width: 1000px;
     padding: 25px;
     margin: 20px;
     border: 1px solid #f3c4da;
@@ -108,5 +108,5 @@ nav{
 }
 
 .products{
-    
+
 }
