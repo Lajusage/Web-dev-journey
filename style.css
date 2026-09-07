@@ -1,8 +1,8 @@
 body{
     font-family: Georgia, serif;
     font-size: 16px;
-    color: #2b1b21;
-    background-color: #fff5f8;
+    color: #3a272d;
+    background-color: #fff8f2;
     line-height: 1.6;
     margin: 0;
 }
@@ -20,7 +20,7 @@ h1{
 p{
     font-size: 16px;
     line-height: 1.6;
-    color: #5c414b;
+    color: #3a272d;
     text-align: left;
 }
 
@@ -28,14 +28,14 @@ header{
     background-color: #ffffff;
     padding: 20px 40px;
     margin: 0;
-    border-bottom: 1px solid #f3c4da;
-    box-shadow: 0 2px 8px rgba(217, 79, 125, 0.08);
+    border-bottom: 1px solid #a8bfa3;
+    box-shadow: 0 2px 8px rgba(58, 39, 45, 0.08);
     display: block;
     
 }
 
 nav a{
-    color: #2b1b21;
+    color: #3a272d;
 
     font-family: Arial, sans-serif;
     font-weight: 600;
@@ -48,14 +48,14 @@ nav{
 }
 
 .hero{
-    background-color: #ffe4ed;
+    background-color: #fff8f2;
     width: 100%;
     height: 800px;
     padding: 50px;
     margin: 40px auto;
-    border: 1px solid #f3c4da;
+    border: 1px solid #a8bfa3;
     border-radius: 25px;
-    box-shadow: 0 8px 20px rgba(217, 79, 125, 0.12);
+    box-shadow: 0 8px 20px rgba(58, 39, 45, 0.10);
     text-align: center;
 }
 
@@ -69,15 +69,16 @@ nav{
 
 .hero p{
     font-size: 18px;
-    color: #5c414b;
+    color: #3a272d;
     text-align: left;
 }
 
 .hero img{
     width: 750px;
     height: 600px;
+    border: 3px solid #a8bfa3;
     border-radius: 20px;
-    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 15px rgba(168, 191, 163, 0.35);
 }
 
 .hero button{
@@ -95,9 +96,9 @@ nav{
     width: 1000px;
     padding: 25px;
     margin: 20px;
-    border: 1px solid #f3c4da;
+    border: 1px solid #a8bfa3;
     border-radius: 20px;
-    box-shadow: 0 5px 15px rgba(217, 79, 125, 0.12);
+    box-shadow: 0 5px 15px rgba(168, 191, 163, 0.25);
     text-align: left;
     display: flex;
     flex-direction: row;
@@ -109,6 +110,62 @@ nav{
 
 .products{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    background-color: #fff0f5;
+    width: 100%;
+    margin: 40px auto;
+    padding: 50px;
+    text-align: center;
+    border: 2px solid #d94f7d;
+    border-radius: 25px;
+    box-shadow: 0 10px, 25px rgba(217, 79, 125, 0.18);
+}
+
+.products h2{
+    font-family: Georgia, serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #d94f7d;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.products p{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #3a272d;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.products img{
+    width: 750px;
+    height: 600px;
+    border: 3px solid #a8bfa3;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgb(168, 191, 163, 0.35);
+}
+
+.products .Price{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #3a272d;
+    text-align: center;
+}
+
+.products button{
+    background-color: #d94f7d;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 25px;
+    border: 2px solid #d94f7d;
+    border-radius: 0 5px 12px rgba(217, 79, 125, 0.12);
+    cursor: pointer;
 }
