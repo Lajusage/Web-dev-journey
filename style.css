@@ -133,7 +133,7 @@ nav{
     flex-wrap: wrap;
 }
 
-.products-container h2{
+.products h2{
     font-family: Georgia, serif;
     font-size: 25px;
     font-weight: 700;
@@ -142,7 +142,7 @@ nav{
     text-align: center;
 }
 
-.products-container p{
+.products p{
     font-family: Arial, sans-serif;
     font-size: 15px;
     color: #3a272d;
@@ -150,7 +150,7 @@ nav{
     text-align: center;
 }
 
-.products-container img{
+.products img{
     width: 750px;
     height: 600px;
     border: 3px solid #a8bfa3;
