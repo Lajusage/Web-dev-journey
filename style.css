@@ -115,13 +115,6 @@ nav{
 }
 
 .products{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: stretch;
-    align-content: center;
-    gap: 25px;
-    flex-wrap: wrap;
     background-color: #fff0f5;
     width: 100%;
     margin: 40px auto;
@@ -130,6 +123,15 @@ nav{
     border: 2px solid #d94f7d;
     border-radius: 25px;
     box-shadow: 0 10px, 25px rgba(217, 79, 125, 0.18);
+}
+
+.products-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    flex-wrap: wrap;
 }
 
 .products-container h2{
@@ -277,7 +279,7 @@ table {
     box-shadow: 0 8px 20px rgba(217, 79, 125, 0.15);
 }
 
-th {
+th{
     background-color: #D94F7D;
     color: #FFFFFF;
     font-weight: 700;
@@ -286,7 +288,7 @@ th {
     border: 1px solid #A8BFA3;
 }
 
-td {
+td{
     padding: 12px;
     border: 2px solid #A8BFA3;
     text-align: center;
@@ -294,7 +296,7 @@ td {
     font-size: 15px;
 }
 
-form {
+form{
     width: 95%;
     padding: 30px;
     margin: 40px auto;
