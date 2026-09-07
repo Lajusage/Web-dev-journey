@@ -88,6 +88,7 @@ nav{
     font-weight: 600;
     padding: 14px 28px;
     border: none;
+    border-radius: 30px;
     box-shadow: 0 5px 12px rgba(217, 79, 125, 0.25);
     cursor: pointer;
 }
@@ -166,6 +167,228 @@ nav{
     font-weight: 600;
     padding: 12px 25px;
     border: 2px solid #d94f7d;
-    border-radius: 0 5px 12px rgba(217, 79, 125, 0.12);
+    border-radius: 30px;
+    box-shadow: 0 5px 12px rgba(217, 79, 125, 0.12);
     cursor: pointer;
+}
+
+.gift{
+    background-color: #fcecef;
+    color: #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    margin: 40px auto;
+    text-align: center;
+    border: 2px solid #d94f7d;
+    border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(58, 39, 45, 0.15);
+}
+
+.gift h3{
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #d94f7d;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.gift p{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #3a272d;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.gift img{
+    width: 750px;
+    height: 600px;
+    border: 3px solid #d94f7d; 
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.gift button{
+    background-color: #d94f7d;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 28px;
+    border: 2px solid #d94f7d;
+    border-radius: 30px;
+    box-shadow: 0 5px 12px rgba(217, 79, 125, 0.25);
+    cursor: pointer;
+}
+
+.about{
+    background-color: #fcecef;
+    color: #3a272d;
+    width: 100%;
+    padding: 50px;
+    margin: 40px auto;
+    text-align: center;
+    border: 1px solid #a8bfa3;
+    border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(58, 39, 45, 0.10);
+}
+
+.about h2{
+    font-family: Georgia, serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #d94f7d;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.about p{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #3a272d;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.about img{
+    width: 750px;
+    height: 600px;
+    border: 3px solid #a8bfa3;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    margin: 40px auto;
+    padding: 30px;
+    border: 2px solid #D94F7D;
+    background-color: #f1f5ef;
+    color: #3A272D;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(217, 79, 125, 0.15);
+}
+
+th {
+    background-color: #D94F7D;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #A8BFA3;
+}
+
+td {
+    padding: 12px;
+    border: 2px solid #A8BFA3;
+    text-align: center;
+    color: #3A272D;
+    font-size: 15px;
+}
+
+form {
+    width: 95%;
+    padding: 30px;
+    margin: 40px auto;
+    background-color: #f1f5ef;
+    color: #3A272D;
+    border: 2px solid #A8BFA3;
+    border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(58, 39, 45, 0.12);
+    text-align: center;
+}
+
+form h2{
+    font-family: Georgia, serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #d94f7d;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+form p{
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+    color: #3A272D;
+    line-height: 1.5;
+    text-align: center;
+}
+
+label {
+    color: #3A272D;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+}
+
+input,
+select,
+textarea {
+    width: 90%;
+    height: 45px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #A8BFA3;
+    border-radius: 10px;
+    background-color: #FFF8F2;
+    color: #3A272D;
+    font-size: 15px;
+}
+
+textarea {
+    height: 120px;
+}
+
+form button {
+    background-color: #D94F7D;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 28px;
+    border: 2px solid #D94F7D;
+    border-radius: 30px;
+    box-shadow: 0 5px 12px rgba(217, 79, 125, 0.25);
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f5ede7;
+    color: #FFFFFF;
+    padding: 40px;
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+footer a {
+    color: #d94f7d;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
+footer h3 {
+    color: #d94f7d;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+footer p {
+    color: #5c414b;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin: 10px 0;
 }
