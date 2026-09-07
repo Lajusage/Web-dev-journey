@@ -120,10 +120,10 @@ nav{
     justify-content: center;
     align-items: stretch;
     align-content: center;
-    gap: 25px;
+    gap: 10px;
     flex-wrap: wrap;
     background-color: #fff0f5;
-    width: 100%;
+    width: 110%;
     margin: 40px auto;
     padding: 50px;
     text-align: center;
