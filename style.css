@@ -129,7 +129,7 @@ nav{
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
-    gap: 25px;
+    gap: 30px;
     flex-wrap: wrap;
 }
 
