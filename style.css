@@ -4,10 +4,10 @@ body{
     color: #3a272d;
     background-color: #fdf6f8;
     line-height: 1.6;
-    margin: 0;
+    margin: auto;
 }
 
-h1{
+header h1{
     font-family: Georgia, serif;
     font-size: 60px;
     font-weight: 700;
@@ -24,13 +24,16 @@ p{
     text-align: left;
 }
 
-header{
+header nav{
     background-color: #ffffff;
     padding: 20px 40px;
     margin: 0;
     border-bottom: 1px solid #a8bfa3;
     box-shadow: 0 2px 8px rgba(58, 39, 45, 0.08);
-    display: block;
+    padding: 25px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
 }
 
@@ -43,7 +46,8 @@ nav a{
 }
 
 nav{
-    display: block;
+    display: flex;
+    gap: 30px;
 }
 
 .hero{
@@ -74,7 +78,7 @@ nav{
 }
 
 .hero img{
-    width: 750px;
+    width: 100%;
     height: 600px;
     border: 3px solid #a8bfa3;
     border-radius: 20px;
@@ -151,8 +155,8 @@ nav{
 }
 
 .products img{
-    width: 425px;
-    height: 350px;
+    width: 100%;
+    height: 250px;
     border: 3px solid #a8bfa3;
     border-radius: 15px;
     box-shadow: 0 6px 15px rgb(168, 191, 163, 0.35);
@@ -209,7 +213,7 @@ nav{
 }
 
 .gift img{
-    width: 750px;
+    width: 100%;
     height: 600px;
     border: 3px solid #d94f7d; 
     border-radius: 20px;
@@ -258,7 +262,7 @@ nav{
 }
 
 .about img{
-    width: 750px;
+    width: 100%;
     height: 600px;
     border: 3px solid #a8bfa3;
     border-radius: 20px;
@@ -361,40 +365,3 @@ form button {
     cursor: pointer;
 }
 
-footer {
-    background-color: #f5ede7;
-    color: #FFFFFF;
-    padding: 40px;
-    margin: 0;
-    text-align: center;
-    font-size: 15px;
-    letter-spacing: 1px;
-}
-
-footer a {
-    color: #d94f7d;
-    font-size: 15px;
-    font-weight: 600;
-    text-decoration: none;
-    padding: 5px 10px;
-    margin: 0 5px;
-}
-
-footer h3 {
-    color: #d94f7d;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 20px 0;
-}
-
-footer p {
-    color: #5c414b;
-    font-size: 14px;
-    line-height: 1.6;
-    letter-spacing: 0.5px;
-    text-align: center;
-    margin: 10px 0;
-}
