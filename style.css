@@ -4,7 +4,6 @@ body{
     color: #3a272d;
     background-color: #fdf6f8;
     line-height: 1.6;
-    margin: 0%;
 }
 
 header h1{
@@ -363,3 +362,7 @@ form button {
     cursor: pointer;
 }
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
