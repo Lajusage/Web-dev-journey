@@ -26,11 +26,9 @@ p{
 
 header nav{
     background-color: #ffffff;
-    padding: 20px 40px;
-    margin: 0;
+    padding: 25px 40px;
     border-bottom: 1px solid #a8bfa3;
     box-shadow: 0 2px 8px rgba(58, 39, 45, 0.08);
-    padding: 25px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,9 +38,9 @@ header nav{
 nav a{
     color: #3a272d;
     font-family: Arial, sans-serif;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: bold;
     text-decoration: none;
-    padding: 8px 15px;
 }
 
 nav{
@@ -78,7 +76,7 @@ nav{
 }
 
 .hero img{
-    width: 100%;
+    width: 95%;
     height: 600px;
     border: 3px solid #a8bfa3;
     border-radius: 20px;
